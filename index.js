@@ -12,7 +12,8 @@ class Bananas extends Component {
       };
       return (
         <Image source={pic} style={{width: 193, height: 110}}/>
-      );
+      
+        );
     }
   }
     AppRegistry.registerComponent(appName, () => Bananas);
